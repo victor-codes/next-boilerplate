@@ -1,6 +1,10 @@
 {
   "name": "next-boilerplate",
   "version": "0.1.0",
+  "author": {
+    "name": "Victor Adedapo",
+    "email": "ayodejiv5@gmail.com"
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",

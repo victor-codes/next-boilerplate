@@ -1,0 +1,19 @@
+@mixin wrapper($width) {
+  max-width: $width;
+  padding-left: $max-width-side-spacing;
+  padding-right: $max-width-side-spacing;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin space-right($spacing) {
+  > :not(:last-child) {
+    margin-right: $spacing;
+  }
+}
+
+@mixin space-top($spacing) {
+  > :not(:first-child) {
+    margin-top: $spacing;
+  }
+}
